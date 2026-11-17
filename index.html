@@ -1,72 +1,141 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
-    <title>
-      Clear Mind Therapy Center | Individual, Couples &amp; Anger Management
-      Therapy in Pakistan
-    </title>
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+
+    <title>Clear Mind Therapy Center | Online Therapy in Pakistan</title>
     <meta
       name="description"
-      content="Clear Mind Therapy Center, led by Mehwish Farooq (MS Clinical Psychologist, CBT Practitioner). Confidential individual therapy, couples therapy and anger management — in person or online. Book your session today."
-    />
-    <meta
-      name="keywords"
-      content="therapist Pakistan, clinical psychologist, CBT therapy, couples therapy, individual therapy, anger management, online therapy Pakistan, Mehwish Farooq"
+      content="Confidential online therapy in Pakistan: individual, couples and anger management with Mehwish Farooq, Clinical Psychologist (MS). Book a session today."
     />
     <meta name="author" content="Mehwish Farooq" />
-    <link rel="canonical" href="https://www.clearmindtherapy.center/" />
+    <meta name="theme-color" content="#faf7f2" />
+    <!-- SITE_URL_PLACEHOLDER: replace https://SITE_URL_PLACEHOLDER/ everywhere (see README) -->
+    <link rel="canonical" href="https://SITE_URL_PLACEHOLDER/" />
 
-    <!-- Open Graph -->
+    <!-- Icons -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="favicon.ico" sizes="32x32" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+    <!-- Open Graph (WhatsApp / Facebook previews) -->
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Clear Mind Therapy Center" />
     <meta
       property="og:title"
-      content="Clear Mind Therapy Center | Discover the Path to Well-Being"
+      content="Clear Mind Therapy Center | Online Therapy in Pakistan"
     />
     <meta
       property="og:description"
-      content="Confidential, licensed therapy for individuals and couples. Individual Therapy, Couples Therapy &amp; Anger Management with Mehwish Farooq, MS Clinical Psychologist."
+      content="Confidential online therapy for individuals and couples with Mehwish Farooq, Clinical Psychologist (MS). Sessions on WhatsApp or Google Meet."
     />
-    <meta property="og:url" content="https://www.clearmindtherapy.center/" />
+    <meta property="og:url" content="https://SITE_URL_PLACEHOLDER/" />
     <meta
       property="og:image"
-      content="https://www.clearmindtherapy.center/og-image.jpg"
+      content="https://SITE_URL_PLACEHOLDER/og-image.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Clear Mind Therapy Center: online therapy for individuals and couples"
     />
     <meta property="og:locale" content="en_PK" />
+    <meta property="og:locale:alternate" content="ur_PK" />
 
-    <!-- Twitter Card -->
+    <!-- Twitter / X card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Clear Mind Therapy Center" />
+    <meta
+      name="twitter:title"
+      content="Clear Mind Therapy Center | Online Therapy in Pakistan"
+    />
     <meta
       name="twitter:description"
-      content="Confidential, licensed therapy for individuals and couples — book your session today."
+      content="Confidential online therapy for individuals and couples. Book a session today."
+    />
+    <meta
+      name="twitter:image"
+      content="https://SITE_URL_PLACEHOLDER/og-image.jpg"
     />
 
-    <!-- Structured data for SEO -->
+    <!-- Structured data -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Psychologist",
-        "name": "Clear Mind Therapy Center",
-        "founder": {
-          "@type": "Person",
-          "name": "Mehwish Farooq",
-          "jobTitle": "MS Clinical Psychologist, CBT Practitioner, Couple Therapy Specialist"
-        },
-        "description": "Confidential, licensed individual therapy, couples therapy and anger management, in person or online.",
-        "telephone": "+92-306-5354090",
-        "email": "mehwishfarooq096@gmail.com",
-        "areaServed": "PK",
-        "priceRange": "$$",
-        "medicalSpecialty": "Psychiatric",
-        "availableService": [
-          { "@type": "MedicalTherapy", "name": "Individual Therapy" },
-          { "@type": "MedicalTherapy", "name": "Couples Therapy" },
-          { "@type": "MedicalTherapy", "name": "Anger Management" }
+        "@graph": [
+          {
+            "@type": "ProfessionalService",
+            "@id": "https://SITE_URL_PLACEHOLDER/#practice",
+            "name": "Clear Mind Therapy Center",
+            "url": "https://SITE_URL_PLACEHOLDER/",
+            "image": "https://SITE_URL_PLACEHOLDER/og-image.jpg",
+            "description": "Confidential online therapy for individuals and couples, and anger management, with clinical psychologist Mehwish Farooq. Sessions via WhatsApp or Google Meet.",
+            "telephone": "+92-306-5354090",
+            "email": "mehwishfarooq096@gmail.com",
+            "areaServed": { "@type": "Country", "name": "Pakistan" },
+            "founder": { "@id": "https://SITE_URL_PLACEHOLDER/#mehwish" },
+            "knowsAbout": [
+              "Cognitive Behavioural Therapy",
+              "Couples therapy",
+              "Anger management",
+              "Anxiety",
+              "Stress management"
+            ],
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Online therapy services",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Individual Therapy",
+                    "serviceType": "Online individual therapy"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Couples Therapy",
+                    "serviceType": "Online couples therapy"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Anger Management",
+                    "serviceType": "Online anger management therapy"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://SITE_URL_PLACEHOLDER/#mehwish",
+            "name": "Mehwish Farooq",
+            "jobTitle": "Clinical Psychologist (MS), CBT Practitioner",
+            "worksFor": { "@id": "https://SITE_URL_PLACEHOLDER/#practice" },
+            "alumniOf": [
+              {
+                "@type": "CollegeOrUniversity",
+                "name": "Bahria University, Islamabad"
+              },
+              {
+                "@type": "CollegeOrUniversity",
+                "name": "Capital University of Science and Technology, Islamabad"
+              }
+            ]
+          }
         ]
       }
     </script>
@@ -74,7 +143,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=Noto+Naskh+Arabic:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
 
@@ -82,21 +151,25 @@
       :root {
         --navy: #263759;
         --navy-deep: #1b2740;
+        --navy-hover: #33497a;
         --lavender: #9baedb;
         --lavender-soft: #e4e9f7;
+        --lavender-text: #5a72b0;
         --peach: #f0a878;
         --peach-deep: #e38e58;
+        --peach-text: #a4501a;
         --blush: #f2dee3;
         --sand: #e3cbae;
         --cream: #faf7f2;
         --ink: #262524;
-        --ink-soft: #5b5955;
+        --ink-soft: #55534f;
         --line: rgba(38, 55, 89, 0.12);
         --radius: 18px;
         --shadow: 0 12px 32px rgba(38, 55, 89, 0.1);
         --serif: "Fraunces", Georgia, serif;
         --sans:
           "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        --urdu: "Noto Naskh Arabic", "Segoe UI", Tahoma, sans-serif;
       }
 
       * {
@@ -129,6 +202,10 @@
       section {
         position: relative;
       }
+      section[id],
+      .safety-note {
+        scroll-margin-top: 84px;
+      }
       .wrap {
         max-width: 1120px;
         margin: 0 auto;
@@ -139,7 +216,7 @@
       h3 {
         font-family: var(--serif);
         font-weight: 600;
-        line-height: 1.08;
+        line-height: 1.12;
         color: var(--navy-deep);
       }
       h2 {
@@ -153,13 +230,20 @@
         color: var(--ink-soft);
         line-height: 1.7;
       }
+      .ic {
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 1.7;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
       .eyebrow {
         font-family: var(--sans);
         font-size: 0.78rem;
         font-weight: 600;
         letter-spacing: 0.14em;
         text-transform: uppercase;
-        color: var(--peach-deep);
+        color: var(--peach-text);
         display: inline-flex;
         align-items: center;
         gap: 10px;
@@ -168,8 +252,29 @@
         content: "";
         width: 22px;
         height: 1px;
-        background: var(--peach-deep);
+        background: var(--peach-text);
         display: inline-block;
+      }
+      :focus-visible {
+        outline: 3px solid var(--lavender-text);
+        outline-offset: 3px;
+        border-radius: 6px;
+      }
+      .skip {
+        position: absolute;
+        left: 16px;
+        top: -60px;
+        z-index: 200;
+        background: var(--navy-deep);
+        color: #fff;
+        padding: 10px 16px;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 0.9rem;
+        transition: top 0.2s ease;
+      }
+      .skip:focus {
+        top: 12px;
       }
 
       @media (prefers-reduced-motion: reduce) {
@@ -181,15 +286,15 @@
         }
       }
 
-      /* ---------- reveal on scroll ---------- */
-      .reveal {
+      /* ---------- reveal on scroll (only hidden when JS is running) ---------- */
+      .js .reveal {
         opacity: 0;
         transform: translateY(28px);
         transition:
           opacity 0.8s ease,
           transform 0.8s ease;
       }
-      .reveal.in {
+      .js .reveal.in {
         opacity: 1;
         transform: translateY(0);
       }
@@ -201,7 +306,8 @@
         left: 0;
         right: 0;
         z-index: 100;
-        background: rgba(250, 247, 242, 0.86);
+        background: rgba(250, 247, 242, 0.92);
+        -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
         border-bottom: 1px solid transparent;
         transition:
@@ -216,7 +322,8 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 16px 24px;
+        gap: 16px;
+        padding: 14px 24px;
         max-width: 1120px;
         margin: 0 auto;
       }
@@ -228,6 +335,7 @@
         font-weight: 600;
         font-size: 1.08rem;
         color: var(--navy-deep);
+        flex-shrink: 0;
       }
       .brand .mark {
         width: 34px;
@@ -236,7 +344,7 @@
       }
       .nav-links {
         display: flex;
-        gap: 32px;
+        gap: 30px;
         font-size: 0.92rem;
         font-weight: 500;
       }
@@ -248,7 +356,7 @@
       .nav-links a::after {
         content: "";
         position: absolute;
-        left: 0;
+        inset-inline-start: 0;
         bottom: 0;
         width: 0;
         height: 2px;
@@ -257,6 +365,30 @@
       }
       .nav-links a:hover::after {
         width: 100%;
+      }
+      .nav-right {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .lang-toggle {
+        font-family: var(--urdu);
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: var(--navy-deep);
+        background: transparent;
+        border: 1.5px solid var(--line);
+        border-radius: 100px;
+        padding: 6px 16px;
+        cursor: pointer;
+        line-height: 1.5;
+        transition:
+          border-color 0.2s ease,
+          background 0.2s ease;
+      }
+      .lang-toggle:hover {
+        border-color: var(--navy-deep);
+        background: #fff;
       }
       .nav-cta {
         display: inline-flex;
@@ -272,12 +404,38 @@
           transform 0.2s ease,
           background 0.2s ease;
       }
+      .nav-cta .ic {
+        width: 16px;
+        height: 16px;
+      }
       .nav-cta:hover {
-        background: var(--peach-deep);
+        background: var(--navy-hover);
         transform: translateY(-1px);
       }
       .nav-toggle {
         display: none;
+        width: 42px;
+        height: 42px;
+        border-radius: 12px;
+        border: 1.5px solid var(--line);
+        background: transparent;
+        color: var(--navy-deep);
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+      }
+      .nav-toggle .ic {
+        width: 22px;
+        height: 22px;
+      }
+      .nav-toggle .i-close {
+        display: none;
+      }
+      .nav-toggle[aria-expanded="true"] .i-menu {
+        display: none;
+      }
+      .nav-toggle[aria-expanded="true"] .i-close {
+        display: block;
       }
 
       /* ---------- Hero ---------- */
@@ -323,11 +481,11 @@
       }
       .hero h1 em {
         font-style: normal;
-        color: var(--peach-deep);
+        color: var(--peach-text);
       }
       .hero p.lead {
         font-size: 1.12rem;
-        max-width: 480px;
+        max-width: 500px;
         margin-bottom: 34px;
       }
       .btn-row {
@@ -339,6 +497,7 @@
         display: inline-flex;
         align-items: center;
         gap: 10px;
+        font-family: inherit;
         font-weight: 600;
         font-size: 0.95rem;
         padding: 15px 26px;
@@ -350,7 +509,7 @@
         border: 1.5px solid transparent;
         cursor: pointer;
       }
-      .btn svg {
+      .btn .ic {
         width: 18px;
         height: 18px;
         flex-shrink: 0;
@@ -375,15 +534,15 @@
         transform: translateY(-2px);
       }
       .btn-whatsapp {
-        background: #3e7a5f;
+        background: #2f6b50;
         color: #fff;
       }
       .btn-whatsapp:hover {
-        background: #336a51;
+        background: #265a42;
         transform: translateY(-2px);
       }
 
-      /* breathing circle - signature element */
+      /* breathing circle - signature element (text is driven by CSS, in sync) */
       .breathe-wrap {
         position: relative;
         z-index: 1;
@@ -426,17 +585,13 @@
         border-radius: 50%;
         background: radial-gradient(
           circle at 32% 28%,
-          #b7c4e8,
+          #c7d2ef,
           var(--lavender) 55%,
-          #8298ce 100%
+          #8ea3d3 100%
         );
         box-shadow:
           0 25px 50px rgba(38, 55, 89, 0.28),
           inset 0 0 40px rgba(255, 255, 255, 0.25);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
         animation: breathe 8s ease-in-out infinite;
         position: relative;
         z-index: 2;
@@ -451,17 +606,48 @@
         }
       }
       .breathe-circle span {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         font-family: var(--serif);
-        color: #fff;
-        font-size: 1.05rem;
-        font-weight: 500;
-        animation: fadeText 8s ease-in-out infinite;
-        text-shadow: 0 2px 8px rgba(27, 39, 64, 0.3);
+        color: var(--navy-deep);
+        font-size: 1.1rem;
+        font-weight: 600;
       }
-      @keyframes fadeText {
+      .breathe-circle .b-in {
+        opacity: 1;
+        animation: textIn 8s ease-in-out infinite;
+      }
+      .breathe-circle .b-out {
+        opacity: 0;
+        animation: textOut 8s ease-in-out infinite;
+      }
+      @keyframes textIn {
+        0% {
+          opacity: 0;
+        }
+        8%,
+        42% {
+          opacity: 1;
+        }
+        50%,
+        100% {
+          opacity: 0;
+        }
+      }
+      @keyframes textOut {
         0%,
-        45% {
-          content: "";
+        50% {
+          opacity: 0;
+        }
+        58%,
+        92% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
         }
       }
       .breathe-caption {
@@ -472,6 +658,7 @@
         font-size: 0.8rem;
         color: var(--ink-soft);
         letter-spacing: 0.06em;
+        white-space: nowrap;
       }
 
       /* ---------- Trust strip ---------- */
@@ -483,7 +670,7 @@
       .trust .wrap {
         display: flex;
         flex-wrap: wrap;
-        gap: 28px 40px;
+        gap: 22px 40px;
         justify-content: center;
         align-items: center;
       }
@@ -495,10 +682,11 @@
         font-weight: 500;
         color: var(--navy);
       }
-      .trust-item svg {
+      .trust-item .ic {
         width: 20px;
         height: 20px;
-        color: var(--peach-deep);
+        color: var(--peach-text);
+        flex-shrink: 0;
       }
 
       /* ---------- About ---------- */
@@ -519,10 +707,24 @@
         position: relative;
         overflow: hidden;
       }
-      .avatar-card .spiral {
+      .portrait {
         width: 150px;
         height: 150px;
         margin: 0 auto 22px;
+        position: relative;
+      }
+      .portrait svg {
+        width: 100%;
+        height: 100%;
+      }
+      .portrait img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid var(--lavender);
       }
       .avatar-card h3 {
         color: #fff;
@@ -534,7 +736,6 @@
         color: var(--lavender-soft);
         font-size: 0.92rem;
         margin-top: 6px;
-        opacity: 0.9;
       }
       .avatar-tags {
         display: flex;
@@ -544,27 +745,59 @@
         margin-top: 22px;
       }
       .avatar-tags span {
-        font-size: 0.74rem;
+        font-size: 0.76rem;
         padding: 6px 12px;
         border-radius: 100px;
         border: 1px solid rgba(255, 255, 255, 0.28);
         color: #edeff7;
       }
+      .edu {
+        margin-top: 26px;
+        border-top: 1px solid rgba(255, 255, 255, 0.14);
+        display: flex;
+        flex-direction: column;
+      }
+      .edu li {
+        text-align: center;
+        padding: 16px 4px 0;
+      }
+      .edu strong {
+        display: block;
+        font-size: 0.92rem;
+        font-weight: 600;
+        color: #fff;
+      }
+      .edu span {
+        display: block;
+        font-size: 0.82rem;
+        color: #c4cce4;
+        margin-top: 3px;
+        line-height: 1.5;
+      }
       .about-copy h2 {
-        margin-bottom: 20px;
+        margin: 16px 0 20px;
       }
       .about-copy p {
         margin-bottom: 16px;
         font-size: 1.02rem;
       }
-      .about-copy p.quote {
+      .about-copy blockquote {
         font-family: var(--serif);
-        font-style: normal;
         font-size: 1.25rem;
+        line-height: 1.5;
         color: var(--navy-deep);
-        border-left: 3px solid var(--peach);
-        padding-left: 20px;
+        border-inline-start: 3px solid var(--peach);
+        padding-inline-start: 20px;
         margin: 26px 0;
+      }
+      .about-copy blockquote cite {
+        display: block;
+        font-family: var(--sans);
+        font-style: normal;
+        font-size: 0.85rem;
+        font-weight: 500;
+        color: var(--ink-soft);
+        margin-top: 8px;
       }
 
       /* ---------- Services ---------- */
@@ -608,10 +841,10 @@
         justify-content: center;
         margin-bottom: 20px;
       }
-      .service-icon svg {
+      .service-icon .ic {
         width: 28px;
         height: 28px;
-        color: #fff;
+        color: var(--navy-deep);
       }
       .card-1 .service-icon {
         background: var(--peach);
@@ -634,19 +867,24 @@
       .service-card li {
         font-size: 0.92rem;
         color: var(--ink-soft);
-        padding-left: 20px;
+        padding-inline-start: 20px;
         position: relative;
-        line-height: 1.5;
+        line-height: 1.55;
       }
       .service-card li::before {
         content: "";
         position: absolute;
-        left: 0;
+        inset-inline-start: 0;
         top: 8px;
         width: 6px;
         height: 6px;
         border-radius: 50%;
         background: var(--peach-deep);
+      }
+      .service-note {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 0.95rem;
       }
 
       /* ---------- How it works ---------- */
@@ -673,7 +911,7 @@
       .step .num {
         font-family: var(--serif);
         font-size: 2.6rem;
-        color: var(--lavender);
+        color: var(--lavender-text);
         font-weight: 600;
         line-height: 1;
         display: block;
@@ -686,11 +924,51 @@
       .step p {
         font-size: 0.94rem;
       }
-      .step-connector {
-        position: absolute;
-        top: 22px;
-        left: calc(100% + 16px);
-        width: calc(32px - 0px);
+
+      /* ---------- FAQ ---------- */
+      .faq {
+        padding: 70px 0 90px;
+      }
+      .faq-list {
+        max-width: 780px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+      .faq-item {
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+      }
+      .faq-item summary {
+        cursor: pointer;
+        list-style: none;
+        padding: 18px 22px;
+        font-weight: 600;
+        font-size: 0.98rem;
+        line-height: 1.5;
+        color: var(--navy-deep);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+      }
+      .faq-item summary::-webkit-details-marker {
+        display: none;
+      }
+      .faq-item summary::after {
+        content: "+";
+        font-size: 1.5rem;
+        line-height: 1;
+        color: var(--peach-text);
+        flex-shrink: 0;
+      }
+      .faq-item[open] summary::after {
+        content: "\2013";
+      }
+      .faq-item p {
+        padding: 0 22px 20px;
+        font-size: 0.96rem;
       }
 
       /* ---------- Note / safety ---------- */
@@ -706,15 +984,21 @@
         display: flex;
         gap: 14px;
         align-items: flex-start;
-        font-size: 0.9rem;
+        font-size: 0.92rem;
+        line-height: 1.65;
         color: var(--navy-deep);
       }
-      .safety-inner svg {
+      .safety-inner .ic {
         width: 20px;
         height: 20px;
         flex-shrink: 0;
         margin-top: 2px;
-        color: var(--peach-deep);
+        color: var(--peach-text);
+      }
+      .safety-inner a {
+        font-weight: 600;
+        text-decoration: underline;
+        text-underline-offset: 3px;
       }
 
       /* ---------- Register form ---------- */
@@ -753,6 +1037,7 @@
         font-weight: 600;
         color: var(--navy-deep);
         font-size: 0.95rem;
+        overflow-wrap: anywhere;
         transition:
           border-color 0.2s ease,
           transform 0.2s ease;
@@ -771,7 +1056,7 @@
         justify-content: center;
         flex-shrink: 0;
       }
-      .contact-quick .icon-circle svg {
+      .contact-quick .icon-circle .ic {
         width: 18px;
         height: 18px;
         color: var(--navy-deep);
@@ -812,26 +1097,43 @@
         width: 100%;
         padding: 13px 15px;
         border-radius: 10px;
-        border: 1.5px solid var(--line);
-        font-family: var(--sans);
-        font-size: 0.95rem;
+        border: 1.5px solid rgba(38, 55, 89, 0.22);
+        font-family: inherit;
+        font-size: 1rem;
         color: var(--ink);
         background: var(--cream);
         transition:
           border-color 0.2s ease,
           box-shadow 0.2s ease;
       }
+      .field input[type="tel"],
+      .field input[type="email"] {
+        direction: ltr;
+      }
       .field input:focus,
       .field select:focus,
       .field textarea:focus {
         outline: none;
-        border-color: var(--lavender);
-        box-shadow: 0 0 0 4px rgba(155, 174, 219, 0.22);
+        border-color: var(--lavender-text);
+        box-shadow: 0 0 0 4px rgba(155, 174, 219, 0.3);
         background: #fff;
+      }
+      .field [aria-invalid="true"] {
+        border-color: #b3382c;
       }
       .field textarea {
         resize: vertical;
         min-height: 90px;
+      }
+      .err {
+        color: #a3291d;
+        font-size: 0.8rem;
+        font-weight: 500;
+        margin-top: 6px;
+        line-height: 1.4;
+      }
+      .err[hidden] {
+        display: none;
       }
       .form-actions {
         display: flex;
@@ -844,14 +1146,21 @@
         justify-content: center;
         min-width: 180px;
       }
-      .form-hint {
-        font-size: 0.78rem;
-        color: var(--ink-soft);
+      .form-status {
         margin-top: 14px;
-        line-height: 1.5;
+        font-size: 0.88rem;
+        font-weight: 500;
+        color: #2f6b50;
+        min-height: 1.2em;
+      }
+      .form-hint {
+        font-size: 0.8rem;
+        color: var(--ink-soft);
+        margin-top: 10px;
+        line-height: 1.6;
       }
       .required-star {
-        color: var(--peach-deep);
+        color: var(--peach-text);
       }
 
       /* ---------- Footer ---------- */
@@ -859,7 +1168,6 @@
         background: var(--navy-deep);
         color: #edeff7;
         padding: 64px 0 30px;
-        margin-top: 0;
       }
       .footer-grid {
         display: grid;
@@ -881,9 +1189,9 @@
         height: 30px;
       }
       footer p {
-        color: #b9c1d9;
+        color: #bcc4dc;
         font-size: 0.9rem;
-        max-width: 320px;
+        max-width: 340px;
       }
       footer h4 {
         font-size: 0.85rem;
@@ -899,7 +1207,7 @@
         gap: 11px;
       }
       footer ul a {
-        color: #b9c1d9;
+        color: #bcc4dc;
         font-size: 0.92rem;
         transition: color 0.2s ease;
       }
@@ -913,7 +1221,7 @@
         flex-wrap: wrap;
         gap: 10px;
         font-size: 0.8rem;
-        color: #8791ac;
+        color: #a2abc6;
       }
 
       /* ---------- Sticky mobile call bar ---------- */
@@ -926,7 +1234,7 @@
         z-index: 99;
         background: #fff;
         border-top: 1px solid var(--line);
-        padding: 12px 16px;
+        padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
         box-shadow: 0 -8px 24px rgba(38, 55, 89, 0.12);
       }
       .mobile-bar .btn-row {
@@ -936,14 +1244,57 @@
         flex: 1;
         justify-content: center;
         padding: 13px 14px;
-        font-size: 0.86rem;
+        font-size: 0.88rem;
+      }
+
+      /* ---------- Urdu / RTL ---------- */
+      html[dir="rtl"] body,
+      html[dir="rtl"] h1,
+      html[dir="rtl"] h2,
+      html[dir="rtl"] h3,
+      html[dir="rtl"] .brand,
+      html[dir="rtl"] .footer-brand,
+      html[dir="rtl"] .about-copy blockquote,
+      html[dir="rtl"] .step .num,
+      html[dir="rtl"] .breathe-circle span {
+        font-family: var(--urdu);
+      }
+      html[dir="rtl"] .brand,
+      html[dir="rtl"] .footer-brand {
+        font-family: var(--serif);
+      }
+      html[dir="rtl"] p,
+      html[dir="rtl"] li,
+      html[dir="rtl"] .faq-item summary {
+        line-height: 2;
+      }
+      html[dir="rtl"] h1,
+      html[dir="rtl"] h2,
+      html[dir="rtl"] h3 {
+        line-height: 1.45;
+        letter-spacing: 0;
+      }
+      html[dir="rtl"] .eyebrow,
+      html[dir="rtl"] footer h4 {
+        letter-spacing: 0;
+        text-transform: none;
+        font-size: 0.9rem;
+      }
+      html[dir="rtl"] .breathe-caption {
+        letter-spacing: 0;
+      }
+      html[dir="rtl"] .contact-quick a:hover {
+        transform: translateX(-4px);
+      }
+      html[dir="rtl"] .field input[type="tel"],
+      html[dir="rtl"] .field input[type="email"] {
+        text-align: left;
       }
 
       /* ---------- Responsive ---------- */
       @media (max-width: 980px) {
         .hero {
           padding-top: 130px;
-          text-align: left;
         }
         .hero-inner {
           grid-template-columns: 1fr;
@@ -968,7 +1319,7 @@
           grid-template-columns: 1fr;
         }
         .avatar-card {
-          max-width: 340px;
+          max-width: 360px;
           margin: 0 auto;
         }
         .service-grid {
@@ -988,19 +1339,54 @@
           grid-column: 1/-1;
         }
       }
-      @media (max-width: 640px) {
+      @media (max-width: 860px) {
+        .nav-toggle {
+          display: inline-flex;
+        }
         .nav-links {
           display: none;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          right: 0;
+          flex-direction: column;
+          gap: 0;
+          background: var(--cream);
+          border-bottom: 1px solid var(--line);
+          box-shadow: 0 16px 30px rgba(38, 55, 89, 0.1);
+          padding: 8px 24px 16px;
+        }
+        .nav-links.open {
+          display: flex;
+        }
+        .nav-links a {
+          padding: 14px 0;
+          font-size: 1rem;
+          border-bottom: 1px solid var(--line);
+        }
+        .nav-links a:last-child {
+          border-bottom: 0;
+        }
+        .nav-links a::after {
+          display: none;
+        }
+      }
+      @media (max-width: 640px) {
+        nav {
+          padding: 12px 16px;
         }
         .nav-cta {
-          padding: 9px 16px;
-          font-size: 0.82rem;
+          display: none;
         }
         .form-row {
           grid-template-columns: 1fr;
+          gap: 0;
+        }
+        form.session-form {
+          padding: 28px 20px;
         }
         body {
-          padding-bottom: 78px;
+          padding-bottom: 82px;
         }
         .mobile-bar {
           display: block;
@@ -1015,432 +1401,645 @@
           flex: 1;
           justify-content: center;
         }
+        .breathe-caption {
+          white-space: normal;
+          text-align: center;
+          width: 240px;
+        }
       }
     </style>
   </head>
   <body>
+    <!-- icon sprite -->
+    <svg
+      width="0"
+      height="0"
+      style="position: absolute"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <symbol id="i-phone" viewBox="0 0 24 24">
+        <path
+          d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.2 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.9 21 3 13.1 3 4c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.2 1.1L6.6 10.8z"
+        />
+      </symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24">
+        <path d="M4 6h16v12H4z" />
+        <path d="M4 7l8 6 8-6" />
+      </symbol>
+      <symbol id="i-whatsapp" viewBox="0 0 24 24">
+        <path d="M20 4A10 10 0 004 18l-1 4 4-1a10 10 0 1013-17z" />
+        <path d="M8.5 9.5c.5 3 2.5 5 5.5 5.5" />
+      </symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24">
+        <path d="M12 3l7 3v6c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6l7-3z" />
+        <path d="M9 12l2 2 4-4" />
+      </symbol>
+      <symbol id="i-video" viewBox="0 0 24 24">
+        <rect x="3" y="6" width="12" height="12" rx="2" />
+        <path d="M15 11l6-3v8l-6-3" />
+      </symbol>
+      <symbol id="i-check" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="9" />
+        <path d="M8 12.5l3 3 5-6" />
+      </symbol>
+      <symbol id="i-cap" viewBox="0 0 24 24">
+        <path d="M2 9l10-5 10 5-10 5z" />
+        <path d="M6 11.5V16c0 1.5 3 3 6 3s6-1.5 6-3v-4.5" />
+      </symbol>
+      <symbol id="i-heart" viewBox="0 0 24 24">
+        <path
+          d="M12 21c-4-3-9-6.5-9-11.5A5.5 5.5 0 0112 5a5.5 5.5 0 019 4.5C21 14.5 16 18 12 21z"
+        />
+      </symbol>
+      <symbol id="i-users" viewBox="0 0 24 24">
+        <path
+          d="M9 12a3 3 0 100-6 3 3 0 000 6zM15 12a3 3 0 100-6 3 3 0 000 6zM3 20c0-3 3-5 6-5s6 2 6 5M12 20c0-3 3-5 6-5s3 2 3 5"
+        />
+      </symbol>
+      <symbol id="i-flame" viewBox="0 0 24 24">
+        <path
+          d="M12 3c.5 3 4.5 5 4.5 9.5a4.5 4.5 0 01-9 0c0-2 1-3.2 2-4.2.2 1.3.9 2 1.7 2.2C11 8.5 10.5 5.5 12 3z"
+        />
+      </symbol>
+      <symbol id="i-alert" viewBox="0 0 24 24">
+        <path
+          d="M12 9v4M12 17h.01M10.3 3.9L2.7 17.6c-.5.9.1 2 1.2 2h16.2c1.1 0 1.7-1.1 1.2-2L13.7 3.9c-.6-1-2-1-2.6 0z"
+        />
+      </symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24">
+        <path d="M4 7h16M4 12h16M4 17h16" />
+      </symbol>
+      <symbol id="i-close" viewBox="0 0 24 24">
+        <path d="M6 6l12 12M18 6L6 18" />
+      </symbol>
+      <symbol id="i-mark" viewBox="0 0 40 40">
+        <circle cx="20" cy="20" r="19" />
+        <path d="M20 8c5 4 5 9 0 12s-5 8 0 12" />
+      </symbol>
+    </svg>
+
+    <a href="#main" class="skip" data-i18n="skip">Skip to content</a>
+
     <!-- ============ NAV ============ -->
     <header class="site" id="siteHeader">
-      <nav>
+      <nav aria-label="Main">
         <a href="#top" class="brand">
-          <svg class="mark" viewBox="0 0 40 40" fill="none">
-            <circle
-              cx="20"
-              cy="20"
-              r="19"
-              stroke="#263759"
-              stroke-width="1.4"
-            />
-            <path
-              d="M20 8c5 4 5 9 0 12s-5 8 0 12"
-              stroke="#263759"
-              stroke-width="1.4"
-              fill="none"
-            />
+          <svg class="mark ic" aria-hidden="true" style="color: #263759">
+            <use href="#i-mark" />
           </svg>
           Clear Mind
         </a>
-        <div class="nav-links">
-          <a href="#about">About</a>
-          <a href="#services">Services</a>
-          <a href="#how">How it works</a>
-          <a href="#register">Register</a>
+        <div class="nav-links" id="navLinks">
+          <a href="#about" data-i18n="nav.about">About</a>
+          <a href="#services" data-i18n="nav.services">Services</a>
+          <a href="#how" data-i18n="nav.how">How it works</a>
+          <a href="#faq" data-i18n="nav.faq">FAQ</a>
+          <a href="#register" data-i18n="nav.book">Book</a>
         </div>
-        <a href="tel:+923065354090" class="nav-cta">
-          <svg viewBox="0 0 24 24" fill="none" width="16" height="16">
-            <path
-              d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.2 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.9 21 3 13.1 3 4c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.2 1.1L6.6 10.8z"
-              stroke="#fff"
-              stroke-width="1.5"
-              fill="none"
-            />
-          </svg>
-          Call now
-        </a>
+        <div class="nav-right">
+          <button
+            type="button"
+            class="lang-toggle"
+            id="langToggle"
+            lang="ur"
+            aria-label="Switch to Urdu"
+          >
+            اردو
+          </button>
+          <a href="tel:+923065354090" class="nav-cta">
+            <svg class="ic" aria-hidden="true"><use href="#i-phone" /></svg>
+            <span data-i18n="cta.call">Call now</span>
+          </a>
+          <button
+            type="button"
+            class="nav-toggle"
+            id="navToggle"
+            aria-expanded="false"
+            aria-controls="navLinks"
+            aria-label="Menu"
+          >
+            <svg class="ic i-menu" aria-hidden="true"><use href="#i-menu" /></svg>
+            <svg class="ic i-close" aria-hidden="true">
+              <use href="#i-close" />
+            </svg>
+          </button>
+        </div>
       </nav>
     </header>
 
-    <!-- ============ HERO ============ -->
-    <section class="hero" id="top">
-      <div class="hero-blob b1"></div>
-      <div class="hero-blob b2"></div>
-      <div class="wrap hero-inner">
-        <div class="hero-copy">
-          <span class="eyebrow">Clear Mind Therapy Center</span>
-          <h1>A calmer mind starts with <em>one conversation.</em></h1>
-          <p class="lead">
-            Confidential, licensed therapy for individuals and couples with
-            Mehwish Farooq, MS Clinical Psychologist &amp; CBT Practitioner — in
-            person or from wherever feels safe to you.
-          </p>
-          <div class="btn-row">
-            <a href="tel:+923065354090" class="btn btn-primary">
-              <svg viewBox="0 0 24 24" fill="none">
+    <main id="main">
+      <!-- ============ HERO ============ -->
+      <section class="hero" id="top">
+        <div class="hero-blob b1" aria-hidden="true"></div>
+        <div class="hero-blob b2" aria-hidden="true"></div>
+        <div class="wrap hero-inner">
+          <div class="hero-copy">
+            <span class="eyebrow">Clear Mind Therapy Center</span>
+            <h1 data-i18n="hero.h1">
+              A calmer mind starts with <em>one conversation.</em>
+            </h1>
+            <p class="lead" data-i18n="hero.lead">
+              Confidential online therapy for individuals and couples with
+              Mehwish Farooq, Clinical Psychologist (MS) &amp; CBT Practitioner
+              — from the comfort of your own home.
+            </p>
+            <div class="btn-row">
+              <a href="tel:+923065354090" class="btn btn-primary">
+                <svg class="ic" aria-hidden="true"><use href="#i-phone" /></svg>
+                <span data-i18n="cta.call">Call now</span>
+              </a>
+              <a href="#register" class="btn btn-outline" data-i18n="hero.book"
+                >Book a session</a
+              >
+            </div>
+          </div>
+          <div class="breathe-wrap">
+            <div class="breathe-ring r1" aria-hidden="true"></div>
+            <div class="breathe-ring r2" aria-hidden="true"></div>
+            <div class="breathe-circle" aria-hidden="true">
+              <span class="b-in" data-i18n="breathe.in">Breathe in</span>
+              <span class="b-out" data-i18n="breathe.out">Breathe out</span>
+            </div>
+            <div class="breathe-caption" data-i18n="breathe.cap">
+              a small pause, before you begin
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ TRUST STRIP ============ -->
+      <div class="trust reveal">
+        <div class="wrap">
+          <div class="trust-item">
+            <svg class="ic" aria-hidden="true"><use href="#i-shield" /></svg>
+            <span data-i18n="trust.1">Confidential &amp; private</span>
+          </div>
+          <div class="trust-item">
+            <svg class="ic" aria-hidden="true"><use href="#i-video" /></svg>
+            <span data-i18n="trust.2">Online on WhatsApp or Google Meet</span>
+          </div>
+          <div class="trust-item">
+            <svg class="ic" aria-hidden="true"><use href="#i-check" /></svg>
+            <span data-i18n="trust.3">CBT-based, evidence-informed care</span>
+          </div>
+          <div class="trust-item">
+            <svg class="ic" aria-hidden="true"><use href="#i-cap" /></svg>
+            <span data-i18n="trust.4">Qualified Clinical Psychologist (MS)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============ ABOUT ============ -->
+      <section class="about" id="about">
+        <div class="wrap about-grid">
+          <div class="avatar-card reveal">
+            <!-- To use a real photo: add assets/mehwish.jpg (square, ~600x600). It appears here automatically. -->
+            <div class="portrait">
+              <svg viewBox="0 0 150 150" fill="none" aria-hidden="true">
                 <path
-                  d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.2 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.9 21 3 13.1 3 4c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.2 1.1L6.6 10.8z"
-                  stroke="#fff"
-                  stroke-width="1.6"
+                  d="M75 20c30 0 52 22 52 50s-19 42-38 42-30-13-30-28 11-24 24-24 19 8 19 17-6 13-13 13"
+                  stroke="#9BAEDB"
+                  stroke-width="2.2"
                   fill="none"
+                  stroke-linecap="round"
                 />
               </svg>
-              Call now
-            </a>
-            <a href="#register" class="btn btn-outline"
-              >Register for a session</a
+              <img
+                src="assets/mehwish.jpg"
+                alt="Mehwish Farooq"
+                width="150"
+                height="150"
+                onerror="this.remove()"
+              />
+            </div>
+            <h3 data-i18n="about.name">Mehwish Farooq</h3>
+            <p class="role" data-i18n="about.role">
+              Clinical Psychologist (MS)
+            </p>
+            <div class="avatar-tags">
+              <span data-i18n="about.tag1">CBT Practitioner</span>
+              <span data-i18n="about.tag2">Couples Therapy Specialist</span>
+            </div>
+            <ul class="edu">
+              <li>
+                <strong data-i18n="edu.ms.t">MS Clinical Psychology</strong>
+                <span data-i18n="edu.ms.u"
+                  >Bahria University, Islamabad (H-11 Campus)</span
+                >
+              </li>
+              <li>
+                <strong data-i18n="edu.bs.t">BS Psychology</strong>
+                <span data-i18n="edu.bs.u"
+                  >Capital University of Science and Technology,
+                  Islamabad</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="about-copy reveal">
+            <span class="eyebrow" data-i18n="about.eyebrow"
+              >About your therapist</span
             >
-          </div>
-        </div>
-        <div class="breathe-wrap">
-          <div class="breathe-ring r1"></div>
-          <div class="breathe-ring r2"></div>
-          <div class="breathe-circle">
-            <span id="breatheText">Breathe in</span>
-          </div>
-          <div class="breathe-caption">a small pause, before you begin</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ TRUST STRIP ============ -->
-    <div class="trust reveal">
-      <div class="wrap">
-        <div class="trust-item">
-          <svg viewBox="0 0 24 24" fill="none">
-            <path
-              d="M12 3l7 3v6c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6l7-3z"
-              stroke="currentColor"
-              stroke-width="1.6"
-            /></svg
-          >Confidential &amp; licensed
-        </div>
-        <div class="trust-item">
-          <svg viewBox="0 0 24 24" fill="none">
-            <circle
-              cx="12"
-              cy="12"
-              r="9"
-              stroke="currentColor"
-              stroke-width="1.6"
-            />
-            <path
-              d="M12 7v5l3 2"
-              stroke="currentColor"
-              stroke-width="1.6"
-            /></svg
-          >Sessions that fit your schedule
-        </div>
-        <div class="trust-item">
-          <svg viewBox="0 0 24 24" fill="none">
-            <path
-              d="M4 12l5 5L20 6"
-              stroke="currentColor"
-              stroke-width="1.8"
-              fill="none"
-            /></svg
-          >CBT-based, evidence-informed care
-        </div>
-      </div>
-    </div>
-
-    <!-- ============ ABOUT ============ -->
-    <section class="about" id="about">
-      <div class="wrap about-grid">
-        <div class="avatar-card reveal">
-          <svg class="spiral" viewBox="0 0 150 150" fill="none">
-            <path
-              d="M75 20c30 0 52 22 52 50s-19 42-38 42-30-13-30-28 11-24 24-24 19 8 19 17-6 13-13 13"
-              stroke="#9BAEDB"
-              stroke-width="2.2"
-              fill="none"
-              stroke-linecap="round"
-            />
-          </svg>
-          <h3>Mehwish Farooq</h3>
-          <p class="role">MS Clinical Psychologist</p>
-          <div class="avatar-tags">
-            <span>CBT Practitioner</span>
-            <span>Couple Therapy Specialist</span>
-            <span>Child Psychology</span>
-            <span>Educational Assessment</span>
-          </div>
-        </div>
-        <div class="about-copy reveal">
-          <span class="eyebrow">About your therapist</span>
-          <h2>Someone trained to listen, and equipped to help.</h2>
-          <p>
-            Mehwish brings a structured, CBT-based approach to every session —
-            practical tools alongside genuine care, so progress feels tangible
-            rather than abstract.
-          </p>
-          <p class="quote">
-            "We welcome you with open arms — healing that fits your life."
-          </p>
-          <p>
-            Whether you're navigating anxiety, a relationship in need of repair,
-            or reactions that feel hard to control, sessions are built around
-            where you are right now, not a one-size-fits-all program.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ SERVICES ============ -->
-    <section class="services" id="services">
-      <div class="wrap">
-        <div class="section-head reveal">
-          <span class="eyebrow">Our services</span>
-          <h2>Support, shaped around what you're facing.</h2>
-        </div>
-        <div class="service-grid">
-          <div class="service-card card-1 reveal">
-            <div class="service-icon">
-              <svg viewBox="0 0 24 24" fill="none">
-                <path
-                  d="M12 21c-4-3-9-6.5-9-11.5A5.5 5.5 0 0112 5a5.5 5.5 0 019 4.5C21 14.5 16 18 12 21z"
-                  stroke="#fff"
-                  stroke-width="1.6"
-                />
-              </svg>
-            </div>
-            <h3>Individual Therapy</h3>
-            <p>One-on-one sessions built around you.</p>
-            <ul>
-              <li>Therapy from home</li>
-              <li>Healing that fits your life</li>
-              <li>Confidential &amp; licensed</li>
-            </ul>
-          </div>
-          <div class="service-card card-2 reveal">
-            <div class="service-icon">
-              <svg viewBox="0 0 24 24" fill="none">
-                <path
-                  d="M9 12a3 3 0 100-6 3 3 0 000 6zM15 12a3 3 0 100-6 3 3 0 000 6zM3 20c0-3 3-5 6-5s6 2 6 5M12 20c0-3 3-5 6-5"
-                  stroke="#fff"
-                  stroke-width="1.6"
-                />
-              </svg>
-            </div>
-            <h3>Couples Therapy</h3>
-            <p>Guided sessions to rebuild trust as a team.</p>
-            <ul>
-              <li>Better conversation</li>
-              <li>Stronger connection</li>
-              <li>Improve communication together</li>
-            </ul>
-          </div>
-          <div class="service-card card-3 reveal">
-            <div class="service-icon">
-              <svg viewBox="0 0 24 24" fill="none">
-                <path
-                  d="M12 2a8 8 0 018 8c0 5-4 9-8 12-4-3-8-7-8-12a8 8 0 018-8z"
-                  stroke="#fff"
-                  stroke-width="1.6"
-                />
-                <path d="M12 8v4l2.5 2.5" stroke="#fff" stroke-width="1.6" />
-              </svg>
-            </div>
-            <h3>Anger Management</h3>
-            <p>From reaction to response.</p>
-            <ul>
-              <li>Learn tools to manage anger</li>
-              <li>Reduce stress</li>
-              <li>Improve relationships</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ HOW IT WORKS ============ -->
-    <section class="steps" id="how">
-      <div class="wrap">
-        <div class="section-head reveal">
-          <span class="eyebrow">How it works</span>
-          <h2>Three steps to your first session.</h2>
-        </div>
-        <div class="step-grid">
-          <div class="step reveal">
-            <span class="num">01</span>
-            <h3>Register</h3>
-            <p>
-              Fill in the short form below with what you're looking for and how
-              to reach you.
+            <h2 data-i18n="about.h2">
+              Someone trained to listen, and equipped to help.
+            </h2>
+            <p data-i18n="about.p1">
+              Mehwish brings a structured, CBT-based approach to every session —
+              practical tools alongside genuine care, so progress feels tangible
+              rather than abstract.
             </p>
-          </div>
-          <div class="step reveal">
-            <span class="num">02</span>
-            <h3>We reach out</h3>
-            <p>
-              Mehwish will contact you by phone or WhatsApp within 24 hours to
-              find a time that works.
-            </p>
-          </div>
-          <div class="step reveal">
-            <span class="num">03</span>
-            <h3>First session</h3>
-            <p>
-              Meet in person or online, at your own pace — no pressure, just a
-              conversation to start.
+            <blockquote>
+              <span data-i18n="about.quote"
+                >“I welcome you with open arms — healing that fits your
+                life.”</span
+              >
+              <cite data-i18n="about.cite">— Mehwish Farooq</cite>
+            </blockquote>
+            <p data-i18n="about.p2">
+              Whether you're navigating anxiety, a relationship in need of
+              repair, or reactions that feel hard to control, sessions are built
+              around where you are right now, not a one-size-fits-all program.
             </p>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <div class="safety-note reveal">
-      <div class="safety-inner">
-        <svg viewBox="0 0 24 24" fill="none">
-          <path
-            d="M12 9v4M12 17h.01M10.3 3.9L2.7 17.6c-.5.9.1 2 1.2 2h16.2c1.1 0 1.7-1.1 1.2-2L13.7 3.9c-.6-1-2-1-2.6 0z"
-            stroke="currentColor"
-            stroke-width="1.6"
-          />
-        </svg>
-        <span
-          >This form is for booking non-urgent sessions. If you or someone you
-          know is in crisis or in immediate danger, please contact your local
-          emergency services right away.</span
-        >
-      </div>
-    </div>
-
-    <!-- ============ REGISTER ============ -->
-    <section class="register" id="register">
-      <div class="wrap register-grid">
-        <div class="register-copy reveal">
-          <span class="eyebrow">Book your session</span>
-          <h2>Ready when you are.</h2>
-          <p>
-            Share a few details and choose how you'd like to send them — Mehwish
-            will personally get back to you to schedule your first session.
+      <!-- ============ SERVICES ============ -->
+      <section class="services" id="services">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <span class="eyebrow" data-i18n="svc.eyebrow">Our services</span>
+            <h2 data-i18n="svc.h2">Support, shaped around what you're facing.</h2>
+          </div>
+          <div class="service-grid">
+            <div class="service-card card-1 reveal">
+              <div class="service-icon">
+                <svg class="ic" aria-hidden="true"><use href="#i-heart" /></svg>
+              </div>
+              <h3 data-i18n="svc.1.t">Individual Therapy</h3>
+              <p data-i18n="svc.1.p">
+                One-on-one online sessions, built around you.
+              </p>
+              <ul>
+                <li data-i18n="svc.1.l1">Anxiety, overthinking and panic</li>
+                <li data-i18n="svc.1.l2">Low mood, stress and burnout</li>
+                <li data-i18n="svc.1.l3">Self-esteem, grief and life changes</li>
+                <li data-i18n="svc.1.l4">From home, completely private</li>
+              </ul>
+            </div>
+            <div class="service-card card-2 reveal">
+              <div class="service-icon">
+                <svg class="ic" aria-hidden="true"><use href="#i-users" /></svg>
+              </div>
+              <h3 data-i18n="svc.2.t">Couples Therapy</h3>
+              <p data-i18n="svc.2.p">
+                Guided sessions to strengthen trust and understanding, together.
+              </p>
+              <ul>
+                <li data-i18n="svc.2.l1">Clearer, calmer conversations</li>
+                <li data-i18n="svc.2.l2">A stronger emotional connection</li>
+                <li data-i18n="svc.2.l3">Healthier ways to handle conflict</li>
+                <li data-i18n="svc.2.l4">Rebuilding closeness and trust</li>
+              </ul>
+            </div>
+            <div class="service-card card-3 reveal">
+              <div class="service-icon">
+                <svg class="ic" aria-hidden="true"><use href="#i-flame" /></svg>
+              </div>
+              <h3 data-i18n="svc.3.t">Anger Management</h3>
+              <p data-i18n="svc.3.p">From reaction to response.</p>
+              <ul>
+                <li data-i18n="svc.3.l1">Practical tools to manage anger</li>
+                <li data-i18n="svc.3.l2">Less stress, more calm</li>
+                <li data-i18n="svc.3.l3">Healthier relationships</li>
+              </ul>
+            </div>
+          </div>
+          <p class="service-note reveal" data-i18n="svc.note">
+            All sessions are held online, on WhatsApp or Google Meet.
           </p>
-          <div class="contact-quick">
-            <a href="tel:+923065354090">
-              <span class="icon-circle"
-                ><svg viewBox="0 0 24 24" fill="none">
-                  <path
-                    d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.2 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.9 21 3 13.1 3 4c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.2 1.1L6.6 10.8z"
-                    stroke="#263759"
-                    stroke-width="1.6"
-                  /></svg
-              ></span>
-              <span>+92 306 5354090<small>Tap to call directly</small></span>
-            </a>
-            <a href="mailto:mehwishfarooq096@gmail.com">
-              <span class="icon-circle"
-                ><svg viewBox="0 0 24 24" fill="none">
-                  <path d="M4 6h16v12H4z" stroke="#263759" stroke-width="1.6" />
-                  <path
-                    d="M4 7l8 6 8-6"
-                    stroke="#263759"
-                    stroke-width="1.6"
-                  /></svg
-              ></span>
-              <span
-                >mehwishfarooq096@gmail.com<small
-                  >Tap to open your mail app</small
-                ></span
-              >
-            </a>
+        </div>
+      </section>
+
+      <!-- ============ HOW IT WORKS ============ -->
+      <section class="steps" id="how">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <span class="eyebrow" data-i18n="how.eyebrow">How it works</span>
+            <h2 data-i18n="how.h2">Three steps to your first session.</h2>
+          </div>
+          <div class="step-grid">
+            <div class="step reveal">
+              <span class="num" aria-hidden="true">01</span>
+              <h3 data-i18n="how.1.t">Book</h3>
+              <p data-i18n="how.1.p">
+                Fill in the short form below with what you're looking for and
+                how to reach you.
+              </p>
+            </div>
+            <div class="step reveal">
+              <span class="num" aria-hidden="true">02</span>
+              <h3 data-i18n="how.2.t">Mehwish reaches out</h3>
+              <p data-i18n="how.2.p">
+                Mehwish will contact you by phone or WhatsApp within 24 hours to
+                find a time that works.
+              </p>
+            </div>
+            <div class="step reveal">
+              <span class="num" aria-hidden="true">03</span>
+              <h3 data-i18n="how.3.t">Your first session</h3>
+              <p data-i18n="how.3.p">
+                Meet online on WhatsApp or Google Meet, at your own pace — no
+                pressure, just a conversation to start.
+              </p>
+            </div>
           </div>
         </div>
+      </section>
 
-        <form class="session-form reveal" id="sessionForm">
-          <div class="form-row">
-            <div class="field">
-              <label for="fname"
-                >Full name <span class="required-star">*</span></label
-              >
-              <input
-                type="text"
-                id="fname"
-                name="fname"
-                placeholder="Your name"
-                required
-              />
-            </div>
-            <div class="field">
-              <label for="fphone"
-                >Phone / WhatsApp <span class="required-star">*</span></label
-              >
-              <input
-                type="tel"
-                id="fphone"
-                name="fphone"
-                placeholder="03XX XXXXXXX"
-                required
-              />
-            </div>
+      <!-- ============ FAQ ============ -->
+      <section class="faq" id="faq">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <span class="eyebrow" data-i18n="faq.eyebrow">Common questions</span>
+            <h2 data-i18n="faq.h2">Before you book.</h2>
           </div>
-          <div class="form-row">
-            <div class="field">
-              <label for="femail">Email (optional)</label>
-              <input
-                type="email"
-                id="femail"
-                name="femail"
-                placeholder="you@example.com"
-              />
-            </div>
-            <div class="field">
-              <label for="fservice"
-                >Service interested in
-                <span class="required-star">*</span></label
-              >
-              <select id="fservice" name="fservice" required>
-                <option value="" disabled selected>Choose one</option>
-                <option>Individual Therapy</option>
-                <option>Couples Therapy</option>
-                <option>Anger Management</option>
-                <option>Not sure yet</option>
-              </select>
-            </div>
+          <div class="faq-list reveal">
+            <details class="faq-item">
+              <summary data-i18n="faq.q1">
+                Are sessions online or in person?
+              </summary>
+              <p data-i18n="faq.a1">
+                All sessions are online, through WhatsApp or Google Meet, so you
+                can join from wherever you feel safe and comfortable.
+              </p>
+            </details>
+            <details class="faq-item">
+              <summary data-i18n="faq.q2">Is what I share kept private?</summary>
+              <p data-i18n="faq.a2">
+                Yes. What you share in session stays confidential with Mehwish.
+                This website does not store the details you enter in the booking
+                form.
+              </p>
+            </details>
+            <details class="faq-item">
+              <summary data-i18n="faq.q3">
+                What happens after I send the form?
+              </summary>
+              <p data-i18n="faq.a3">
+                Mehwish will contact you by phone or WhatsApp within 24 hours to
+                agree on a time for your first session.
+              </p>
+            </details>
+            <details class="faq-item">
+              <summary data-i18n="faq.q4">What are the fees?</summary>
+              <p data-i18n="faq.a4">
+                Fees are shared when Mehwish contacts you.
+              </p>
+            </details>
+            <details class="faq-item">
+              <summary data-i18n="faq.q5">
+                I'm not sure which service I need.
+              </summary>
+              <p data-i18n="faq.a5">
+                That's completely fine. Choose “Not sure yet” in the form and
+                share a few words about what you're facing — Mehwish will help
+                you work out the right starting point.
+              </p>
+            </details>
+            <details class="faq-item">
+              <summary data-i18n="faq.q6">
+                What do I need for an online session?
+              </summary>
+              <p data-i18n="faq.a6">
+                A phone or computer with an internet connection, and a quiet,
+                private spot where you feel comfortable.
+              </p>
+            </details>
           </div>
-          <div class="field">
-            <label for="ftime">Preferred time to be contacted</label>
-            <input
-              type="text"
-              id="ftime"
-              name="ftime"
-              placeholder="e.g. Weekday evenings"
-            />
-          </div>
-          <div class="field">
-            <label for="fmsg">Anything you'd like to share (optional)</label>
-            <textarea
-              id="fmsg"
-              name="fmsg"
-              placeholder="A brief note about what brings you here"
-            ></textarea>
-          </div>
-          <div class="form-actions">
-            <button type="button" class="btn btn-whatsapp" id="sendWhatsapp">
-              <svg viewBox="0 0 24 24" fill="none">
-                <path
-                  d="M20 4A10 10 0 004 18l-1 4 4-1a10 10 0 1013-17z"
-                  stroke="#fff"
-                  stroke-width="1.5"
-                />
-                <path
-                  d="M8.5 9.5c.5 3 2.5 5 5.5 5.5"
-                  stroke="#fff"
-                  stroke-width="1.5"
-                />
-              </svg>
-              Send via WhatsApp
-            </button>
-            <button type="button" class="btn btn-outline" id="sendEmail">
-              Send via Email
-            </button>
-          </div>
-          <p class="form-hint">
-            Choosing an option opens your own WhatsApp or mail app with these
-            details filled in — you just tap send. Your information isn't stored
-            anywhere else.
-          </p>
-        </form>
+        </div>
+      </section>
+
+      <div class="safety-note reveal">
+        <div class="safety-inner" role="note">
+          <svg class="ic" aria-hidden="true"><use href="#i-alert" /></svg>
+          <span data-i18n="safety"
+            >This form is for booking non-urgent sessions. If you or someone you
+            know is in immediate danger, call
+            <a href="tel:1122">Rescue 1122</a>. For free emotional support at
+            any hour, Umang Pakistan's helpline is open 24/7 on
+            <a href="tel:+923117786264"><bdi dir="ltr">0311 7786264</bdi></a
+            >.</span
+          >
+        </div>
       </div>
-    </section>
+
+      <!-- ============ REGISTER ============ -->
+      <section class="register" id="register">
+        <div class="wrap register-grid">
+          <div class="register-copy reveal">
+            <span class="eyebrow" data-i18n="reg.eyebrow"
+              >Book your session</span
+            >
+            <h2 data-i18n="reg.h2">Ready when you are.</h2>
+            <p data-i18n="reg.p">
+              Share a few details and choose how you'd like to send them —
+              Mehwish will personally get back to you within 24 hours to
+              schedule your first session.
+            </p>
+            <div class="contact-quick">
+              <a href="tel:+923065354090">
+                <span class="icon-circle"
+                  ><svg class="ic" aria-hidden="true">
+                    <use href="#i-phone" /></svg
+                ></span>
+                <span
+                  ><bdi dir="ltr">+92 306 5354090</bdi
+                  ><small data-i18n="reg.call.s"
+                    >Tap to call directly</small
+                  ></span
+                >
+              </a>
+              <a
+                href="https://wa.me/923065354090"
+                target="_blank"
+                rel="noopener"
+              >
+                <span class="icon-circle"
+                  ><svg class="ic" aria-hidden="true">
+                    <use href="#i-whatsapp" /></svg
+                ></span>
+                <span
+                  ><span data-i18n="reg.wa.t">Chat on WhatsApp</span
+                  ><small data-i18n="reg.wa.s"
+                    >Tap to start a conversation</small
+                  ></span
+                >
+              </a>
+              <a href="mailto:mehwishfarooq096@gmail.com">
+                <span class="icon-circle"
+                  ><svg class="ic" aria-hidden="true">
+                    <use href="#i-mail" /></svg
+                ></span>
+                <span
+                  ><bdi dir="ltr">mehwishfarooq096@gmail.com</bdi
+                  ><small data-i18n="reg.mail.s"
+                    >Tap to open your mail app</small
+                  ></span
+                >
+              </a>
+            </div>
+          </div>
+
+          <form class="session-form reveal" id="sessionForm" novalidate>
+            <div class="form-row">
+              <div class="field">
+                <label for="fname"
+                  ><span data-i18n="f.name">Full name</span>
+                  <span class="required-star" aria-hidden="true">*</span></label
+                >
+                <input
+                  type="text"
+                  id="fname"
+                  name="fname"
+                  autocomplete="name"
+                  data-i18n-ph="ph.name"
+                  placeholder="Your name"
+                  aria-required="true"
+                  aria-describedby="err-fname"
+                />
+                <p class="err" id="err-fname" role="alert" hidden></p>
+              </div>
+              <div class="field">
+                <label for="fphone"
+                  ><span data-i18n="f.phone">Phone / WhatsApp</span>
+                  <span class="required-star" aria-hidden="true">*</span></label
+                >
+                <input
+                  type="tel"
+                  id="fphone"
+                  name="fphone"
+                  autocomplete="tel"
+                  inputmode="tel"
+                  placeholder="03XX XXXXXXX"
+                  aria-required="true"
+                  aria-describedby="err-fphone"
+                />
+                <p class="err" id="err-fphone" role="alert" hidden></p>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="femail" data-i18n="f.email">Email (optional)</label>
+                <input
+                  type="email"
+                  id="femail"
+                  name="femail"
+                  autocomplete="email"
+                  placeholder="you@example.com"
+                  aria-describedby="err-femail"
+                />
+                <p class="err" id="err-femail" role="alert" hidden></p>
+              </div>
+              <div class="field">
+                <label for="fservice"
+                  ><span data-i18n="f.service">Service interested in</span>
+                  <span class="required-star" aria-hidden="true">*</span></label
+                >
+                <select
+                  id="fservice"
+                  name="fservice"
+                  aria-required="true"
+                  aria-describedby="err-fservice"
+                >
+                  <option
+                    value=""
+                    disabled
+                    selected
+                    data-i18n="opt.choose"
+                  >
+                    Choose one
+                  </option>
+                  <option value="Individual Therapy" data-i18n="opt.ind">
+                    Individual Therapy
+                  </option>
+                  <option value="Couples Therapy" data-i18n="opt.cou">
+                    Couples Therapy
+                  </option>
+                  <option value="Anger Management" data-i18n="opt.ang">
+                    Anger Management
+                  </option>
+                  <option value="Not sure yet" data-i18n="opt.unsure">
+                    Not sure yet
+                  </option>
+                </select>
+                <p class="err" id="err-fservice" role="alert" hidden></p>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="fplatform" data-i18n="f.platform"
+                  >Preferred platform</label
+                >
+                <select id="fplatform" name="fplatform">
+                  <option value="WhatsApp" data-i18n="opt.wa">WhatsApp</option>
+                  <option value="Google Meet" data-i18n="opt.meet">
+                    Google Meet
+                  </option>
+                  <option value="No preference" data-i18n="opt.nopref">
+                    No preference
+                  </option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="ftime" data-i18n="f.time"
+                  >Preferred time to be contacted</label
+                >
+                <input
+                  type="text"
+                  id="ftime"
+                  name="ftime"
+                  data-i18n-ph="ph.time"
+                  placeholder="e.g. Weekday evenings"
+                />
+              </div>
+            </div>
+            <div class="field">
+              <label for="fmsg" data-i18n="f.msg"
+                >Anything you'd like to share (optional)</label
+              >
+              <textarea
+                id="fmsg"
+                name="fmsg"
+                data-i18n-ph="ph.msg"
+                placeholder="A brief note about what brings you here"
+              ></textarea>
+            </div>
+            <div class="form-actions">
+              <button type="button" class="btn btn-whatsapp" id="sendWhatsapp">
+                <svg class="ic" aria-hidden="true">
+                  <use href="#i-whatsapp" />
+                </svg>
+                <span data-i18n="btn.wa">Send via WhatsApp</span>
+              </button>
+              <button type="button" class="btn btn-outline" id="sendEmail">
+                <svg class="ic" aria-hidden="true"><use href="#i-mail" /></svg>
+                <span data-i18n="btn.mail">Send via Email</span>
+              </button>
+            </div>
+            <p class="form-status" id="formStatus" role="status"></p>
+            <p class="form-hint" data-i18n="hint">
+              Choosing an option opens your own WhatsApp or mail app with these
+              details filled in — you just tap send. Your details aren't stored
+              on this website, and what you share stays confidential with
+              Mehwish. Please keep the note brief; you can share more in
+              session.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
 
     <!-- ============ FOOTER ============ -->
     <footer>
@@ -1448,44 +2047,37 @@
         <div class="footer-grid">
           <div>
             <div class="footer-brand">
-              <svg class="mark" viewBox="0 0 40 40" fill="none">
-                <circle
-                  cx="20"
-                  cy="20"
-                  r="19"
-                  stroke="#fff"
-                  stroke-width="1.2"
-                />
-                <path
-                  d="M20 8c5 4 5 9 0 12s-5 8 0 12"
-                  stroke="#fff"
-                  stroke-width="1.2"
-                  fill="none"
-                />
+              <svg class="mark ic" aria-hidden="true" style="color: #fff">
+                <use href="#i-mark" />
               </svg>
               Clear Mind Therapy Center
             </div>
-            <p>
-              Discover the path to well-being. Confidential, licensed therapy
-              for individuals and couples with Mehwish Farooq.
+            <p data-i18n="foot.tag">
+              Discover the path to well-being. Confidential online therapy for
+              individuals and couples with Mehwish Farooq.
             </p>
           </div>
           <div>
-            <h4>Explore</h4>
+            <h4 data-i18n="foot.explore">Explore</h4>
             <ul>
-              <li><a href="#about">About</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#how">How it works</a></li>
-              <li><a href="#register">Register</a></li>
+              <li><a href="#about" data-i18n="nav.about">About</a></li>
+              <li><a href="#services" data-i18n="nav.services">Services</a></li>
+              <li><a href="#how" data-i18n="nav.how">How it works</a></li>
+              <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+              <li><a href="#register" data-i18n="nav.book">Book</a></li>
             </ul>
           </div>
           <div>
-            <h4>Contact</h4>
+            <h4 data-i18n="foot.contact">Contact</h4>
             <ul>
-              <li><a href="tel:+923065354090">+92 306 5354090</a></li>
+              <li>
+                <a href="tel:+923065354090"
+                  ><bdi dir="ltr">+92 306 5354090</bdi></a
+                >
+              </li>
               <li>
                 <a href="mailto:mehwishfarooq096@gmail.com"
-                  >mehwishfarooq096@gmail.com</a
+                  ><bdi dir="ltr">mehwishfarooq096@gmail.com</bdi></a
                 >
               </li>
             </ul>
@@ -1493,8 +2085,8 @@
         </div>
         <div class="footer-bottom">
           <span
-            >© <span id="year"></span> Clear Mind Therapy Center. All rights
-            reserved.</span
+            >© <span id="year"></span> Clear Mind Therapy Center.
+            <span data-i18n="foot.rights">All rights reserved.</span></span
           >
           <span>Site by MSFtech.io</span>
         </div>
@@ -1504,95 +2096,351 @@
     <!-- ============ MOBILE STICKY BAR ============ -->
     <div class="mobile-bar">
       <div class="btn-row">
-        <a href="tel:+923065354090" class="btn btn-primary">Call</a>
-        <a href="#register" class="btn btn-outline">Register</a>
+        <a href="tel:+923065354090" class="btn btn-primary"
+          ><span data-i18n="mob.call">Call</span></a
+        >
+        <a href="#register" class="btn btn-outline"
+          ><span data-i18n="mob.book">Book</span></a
+        >
       </div>
     </div>
 
     <script>
-      // header scroll state
-      const header = document.getElementById("siteHeader");
-      window.addEventListener("scroll", () => {
-        header.classList.toggle("scrolled", window.scrollY > 10);
-      });
-
-      // reveal on scroll
-      const revealEls = document.querySelectorAll(".reveal");
-      const io = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((e) => {
-            if (e.isIntersecting) {
-              e.target.classList.add("in");
-              io.unobserve(e.target);
-            }
-          });
-        },
-        { threshold: 0.15 },
-      );
-      revealEls.forEach((el) => io.observe(el));
-
-      // breathing text cycle, synced to the 8s breathe animation
-      const breatheText = document.getElementById("breatheText");
-      let breathingIn = true;
-      setInterval(() => {
-        breathingIn = !breathingIn;
-        breatheText.textContent = breathingIn ? "Breathe in" : "Breathe out";
-      }, 4000);
-
-      // footer year
-      document.getElementById("year").textContent = new Date().getFullYear();
-
-      // ---- Registration form: WhatsApp + Email senders ----
+      /* ---------------- contact details (also appear as links in the HTML above) ---------------- */
       const THERAPIST_PHONE = "923065354090"; // international format, no + or leading 0
       const THERAPIST_EMAIL = "mehwishfarooq096@gmail.com";
 
-      function getFormData() {
-        const name = document.getElementById("fname").value.trim();
-        const phone = document.getElementById("fphone").value.trim();
-        const email = document.getElementById("femail").value.trim();
-        const service = document.getElementById("fservice").value;
-        const time = document.getElementById("ftime").value.trim();
-        const msg = document.getElementById("fmsg").value.trim();
-        return { name, phone, email, service, time, msg };
+      /* ---------------- Urdu translations (needs review by a native speaker) ---------------- */
+      const UR = {
+        skip: "مواد پر جائیں",
+        "nav.about": "تعارف",
+        "nav.services": "خدمات",
+        "nav.how": "طریقۂ کار",
+        "nav.faq": "عمومی سوالات",
+        "nav.book": "بُکنگ",
+        "cta.call": "ابھی کال کریں",
+        "hero.h1": "پُرسکون ذہن کا آغاز <em>ایک گفتگو</em> سے ہوتا ہے۔",
+        "hero.lead":
+          "مہوش فاروق، کلینیکل سائیکالوجسٹ (ایم ایس) اور سی بی ٹی پریکٹیشنر کے ساتھ افراد اور جوڑوں کے لیے رازدارانہ آن لائن تھراپی — آپ کے اپنے گھر کے سکون میں۔",
+        "hero.book": "سیشن بُک کریں",
+        "breathe.in": "سانس اندر",
+        "breathe.out": "سانس باہر",
+        "breathe.cap": "شروع کرنے سے پہلے ایک چھوٹا سا وقفہ",
+        "trust.1": "رازداری اور اعتماد",
+        "trust.2": "واٹس ایپ یا گوگل میٹ پر آن لائن",
+        "trust.3": "سی بی ٹی پر مبنی، شواہد سے رہنمائی لیتی دیکھ بھال",
+        "trust.4": "اہل کلینیکل سائیکالوجسٹ (ایم ایس)",
+        "about.name": "مہوش فاروق",
+        "about.role": "کلینیکل سائیکالوجسٹ (ایم ایس)",
+        "about.tag1": "سی بی ٹی پریکٹیشنر",
+        "about.tag2": "جوڑوں کی تھراپی کی ماہر",
+        "edu.ms.t": "ایم ایس کلینیکل سائیکالوجی",
+        "edu.ms.u": "بحریہ یونیورسٹی، اسلام آباد (ایچ-11 کیمپس)",
+        "edu.bs.t": "بی ایس سائیکالوجی",
+        "edu.bs.u": "کیپیٹل یونیورسٹی آف سائنس اینڈ ٹیکنالوجی، اسلام آباد",
+        "about.eyebrow": "آپ کی تھراپسٹ کے بارے میں",
+        "about.h2": "سننے کی تربیت یافتہ، اور مدد کے لیے تیار۔",
+        "about.p1":
+          "مہوش ہر سیشن میں سی بی ٹی پر مبنی منظم طریقہ اپناتی ہیں — عملی تدابیر کے ساتھ حقیقی توجہ، تاکہ بہتری محسوس بھی ہو اور نظر بھی آئے۔",
+        "about.quote":
+          "“میں آپ کو کھلے دل سے خوش آمدید کہتی ہوں — ایسا علاج جو آپ کی زندگی کے مطابق ہو۔”",
+        "about.cite": "— مہوش فاروق",
+        "about.p2":
+          "چاہے آپ بے چینی سے گزر رہے ہوں، کسی ایسے رشتے کو سنوارنا چاہتے ہوں جسے توجہ کی ضرورت ہے، یا ایسے ردِعمل سے پریشان ہوں جو قابو میں نہیں آتے — سیشنز آپ کی موجودہ صورتِ حال کے مطابق ترتیب دیے جاتے ہیں، سب کے لیے ایک جیسے پروگرام کے مطابق نہیں۔",
+        "svc.eyebrow": "ہماری خدمات",
+        "svc.h2": "آپ کی ضرورت کے مطابق مدد۔",
+        "svc.1.t": "انفرادی تھراپی",
+        "svc.1.p": "آپ کے لیے ترتیب دیے گئے ون آن ون آن لائن سیشنز۔",
+        "svc.1.l1": "بے چینی، حد سے زیادہ سوچنا اور گھبراہٹ",
+        "svc.1.l2": "اداسی، ذہنی دباؤ اور تھکن",
+        "svc.1.l3": "خود اعتمادی، غم اور زندگی کی تبدیلیاں",
+        "svc.1.l4": "گھر سے، مکمل رازداری کے ساتھ",
+        "svc.2.t": "جوڑوں کی تھراپی",
+        "svc.2.p":
+          "اعتماد اور باہمی سمجھ بوجھ کو مضبوط کرنے کے لیے رہنمائی پر مبنی سیشنز۔",
+        "svc.2.l1": "واضح اور پُرسکون گفتگو",
+        "svc.2.l2": "مضبوط جذباتی تعلق",
+        "svc.2.l3": "اختلافات سے نمٹنے کے بہتر طریقے",
+        "svc.2.l4": "قربت اور اعتماد کی بحالی",
+        "svc.3.t": "غصے پر قابو",
+        "svc.3.p": "ردِعمل سے سوچے سمجھے جواب تک۔",
+        "svc.3.l1": "غصہ سنبھالنے کی عملی تدابیر",
+        "svc.3.l2": "کم دباؤ، زیادہ سکون",
+        "svc.3.l3": "بہتر رشتے",
+        "svc.note": "تمام سیشنز واٹس ایپ یا گوگل میٹ پر آن لائن ہوتے ہیں۔",
+        "how.eyebrow": "طریقۂ کار",
+        "how.h2": "پہلے سیشن تک تین آسان مراحل۔",
+        "how.1.t": "بُک کریں",
+        "how.1.p":
+          "نیچے دیا گیا مختصر فارم بھریں اور بتائیں کہ آپ کیا چاہتے ہیں اور آپ سے کیسے رابطہ کیا جائے۔",
+        "how.2.t": "مہوش رابطہ کریں گی",
+        "how.2.p":
+          "مہوش 24 گھنٹوں کے اندر فون یا واٹس ایپ پر آپ سے رابطہ کریں گی تاکہ آپ کے لیے موزوں وقت طے ہو سکے۔",
+        "how.3.t": "آپ کا پہلا سیشن",
+        "how.3.p":
+          "واٹس ایپ یا گوگل میٹ پر آن لائن ملاقات، آپ کی اپنی رفتار سے — کوئی دباؤ نہیں، بس بات چیت سے آغاز۔",
+        "faq.eyebrow": "عمومی سوالات",
+        "faq.h2": "بُک کرنے سے پہلے۔",
+        "faq.q1": "کیا سیشنز آن لائن ہوتے ہیں یا بالمشافہ؟",
+        "faq.a1":
+          "تمام سیشنز واٹس ایپ یا گوگل میٹ کے ذریعے آن لائن ہوتے ہیں، تاکہ آپ جہاں خود کو محفوظ اور آرام دہ محسوس کریں وہیں سے شامل ہو سکیں۔",
+        "faq.q2": "کیا میری بتائی ہوئی باتیں راز میں رہتی ہیں؟",
+        "faq.a2":
+          "جی ہاں۔ سیشن میں آپ جو کچھ بتاتے ہیں وہ مہوش کے پاس رازداری میں رہتا ہے۔ اس ویب سائٹ پر آپ کے بُکنگ فارم کی معلومات محفوظ نہیں کی جاتیں۔",
+        "faq.q3": "فارم بھیجنے کے بعد کیا ہوتا ہے؟",
+        "faq.a3":
+          "مہوش 24 گھنٹوں کے اندر فون یا واٹس ایپ پر آپ سے رابطہ کریں گی اور پہلے سیشن کا وقت طے کریں گی۔",
+        "faq.q4": "فیس کتنی ہے؟",
+        "faq.a4": "فیس کی تفصیل مہوش آپ سے رابطہ کرتے وقت بتا دیں گی۔",
+        "faq.q5": "مجھے معلوم نہیں کہ مجھے کون سی خدمت چاہیے۔",
+        "faq.a5":
+          "کوئی مسئلہ نہیں۔ فارم میں «ابھی یقین نہیں» منتخب کریں اور مختصراً بتا دیں کہ آپ کو کیا مسئلہ درپیش ہے — مہوش مناسب آغاز تلاش کرنے میں آپ کی مدد کریں گی۔",
+        "faq.q6": "آن لائن سیشن کے لیے مجھے کیا چاہیے؟",
+        "faq.a6":
+          "انٹرنیٹ والا فون یا کمپیوٹر، اور کوئی پُرسکون، نجی جگہ جہاں آپ خود کو آرام دہ محسوس کریں۔",
+        safety:
+          'یہ فارم غیر ہنگامی سیشنز کی بُکنگ کے لیے ہے۔ اگر آپ یا آپ کا کوئی جاننے والا فوری خطرے میں ہو تو <a href="tel:1122">ریسکیو 1122</a> پر کال کریں۔ کسی بھی وقت مفت جذباتی مدد کے لیے امنگ پاکستان کی ہیلپ لائن 24/7 دستیاب ہے: <a href="tel:+923117786264"><bdi dir="ltr">0311 7786264</bdi></a>۔',
+        "reg.eyebrow": "اپنا سیشن بُک کریں",
+        "reg.h2": "جب آپ تیار ہوں۔",
+        "reg.p":
+          "چند تفصیلات دیں اور بھیجنے کا طریقہ منتخب کریں — مہوش 24 گھنٹوں کے اندر خود آپ سے رابطہ کر کے پہلا سیشن طے کریں گی۔",
+        "reg.call.s": "براہِ راست کال کرنے کے لیے ٹیپ کریں",
+        "reg.wa.t": "واٹس ایپ پر پیغام کریں",
+        "reg.wa.s": "بات چیت شروع کرنے کے لیے ٹیپ کریں",
+        "reg.mail.s": "میل ایپ کھولنے کے لیے ٹیپ کریں",
+        "f.name": "پورا نام",
+        "f.phone": "فون / واٹس ایپ",
+        "f.email": "ای میل (اختیاری)",
+        "f.service": "مطلوبہ خدمت",
+        "f.platform": "پسندیدہ پلیٹ فارم",
+        "f.time": "رابطے کے لیے پسندیدہ وقت",
+        "f.msg": "کچھ اور بتانا چاہیں (اختیاری)",
+        "ph.name": "آپ کا نام",
+        "ph.time": "مثلاً ہفتے کے دن شام کو",
+        "ph.msg": "مختصراً بتائیں کہ آپ کو کیا چیز یہاں لائی",
+        "opt.choose": "ایک منتخب کریں",
+        "opt.ind": "انفرادی تھراپی",
+        "opt.cou": "جوڑوں کی تھراپی",
+        "opt.ang": "غصے پر قابو",
+        "opt.unsure": "ابھی یقین نہیں",
+        "opt.wa": "واٹس ایپ",
+        "opt.meet": "گوگل میٹ",
+        "opt.nopref": "کوئی ترجیح نہیں",
+        "btn.wa": "واٹس ایپ پر بھیجیں",
+        "btn.mail": "ای میل پر بھیجیں",
+        hint: "کسی ایک آپشن کو منتخب کرنے سے آپ کی اپنی واٹس ایپ یا میل ایپ کھل جائے گی جس میں یہ تفصیلات پہلے سے درج ہوں گی — آپ صرف بھیجنے کا بٹن دبائیں۔ آپ کی معلومات اس ویب سائٹ پر محفوظ نہیں کی جاتیں، اور جو کچھ آپ بتاتے ہیں وہ مہوش کے پاس رازداری میں رہتا ہے۔ براہِ کرم نوٹ مختصر رکھیں؛ مزید باتیں آپ سیشن میں بتا سکتے ہیں۔",
+        "foot.tag":
+          "بہتر ذہنی صحت کی راہ دریافت کریں۔ مہوش فاروق کے ساتھ افراد اور جوڑوں کے لیے رازدارانہ آن لائن تھراپی۔",
+        "foot.explore": "مزید دیکھیں",
+        "foot.contact": "رابطہ",
+        "foot.rights": "تمام حقوق محفوظ ہیں۔",
+        "mob.call": "کال",
+        "mob.book": "بُک کریں",
+      };
+
+      const MSG = {
+        en: {
+          name: "Please enter your name.",
+          phone: "Please enter a valid phone number, e.g. 0300 1234567.",
+          email: "Please enter a valid email address.",
+          service: "Please choose a service.",
+          wa: "Opening WhatsApp — just tap send there.",
+          mail: "Opening your mail app — just tap send there.",
+        },
+        ur: {
+          name: "براہِ کرم اپنا نام درج کریں۔",
+          phone: "براہِ کرم درست فون نمبر درج کریں، مثلاً 0300 1234567۔",
+          email: "براہِ کرم درست ای میل پتہ درج کریں۔",
+          service: "براہِ کرم خدمت منتخب کریں۔",
+          wa: "واٹس ایپ کھل رہا ہے — وہاں صرف بھیجنے کا بٹن دبائیں۔",
+          mail: "آپ کی میل ایپ کھل رہی ہے — وہاں صرف بھیجنے کا بٹن دبائیں۔",
+        },
+      };
+
+      /* ---------------- language switch ---------------- */
+      const EN = {};
+      const EN_PH = {};
+      document.querySelectorAll("[data-i18n]").forEach((el) => {
+        if (!(el.dataset.i18n in EN)) EN[el.dataset.i18n] = el.innerHTML;
+      });
+      document.querySelectorAll("[data-i18n-ph]").forEach((el) => {
+        EN_PH[el.dataset.i18nPh] = el.getAttribute("placeholder");
+      });
+
+      let lang = "en";
+      const langToggle = document.getElementById("langToggle");
+
+      function applyLang(next) {
+        lang = next;
+        const ur = lang === "ur";
+        document.documentElement.lang = lang;
+        document.documentElement.dir = ur ? "rtl" : "ltr";
+        document.querySelectorAll("[data-i18n]").forEach((el) => {
+          const k = el.dataset.i18n;
+          el.innerHTML = ur && UR[k] ? UR[k] : EN[k];
+        });
+        document.querySelectorAll("[data-i18n-ph]").forEach((el) => {
+          const k = el.dataset.i18nPh;
+          el.setAttribute("placeholder", ur && UR[k] ? UR[k] : EN_PH[k]);
+        });
+        langToggle.textContent = ur ? "English" : "اردو";
+        langToggle.lang = ur ? "en" : "ur";
+        langToggle.setAttribute(
+          "aria-label",
+          ur ? "Switch to English" : "Switch to Urdu",
+        );
+        clearErrors();
+        try {
+          localStorage.setItem("cm-lang", lang);
+        } catch (e) {}
+      }
+      langToggle.addEventListener("click", () =>
+        applyLang(lang === "en" ? "ur" : "en"),
+      );
+      try {
+        if (localStorage.getItem("cm-lang") === "ur") applyLang("ur");
+      } catch (e) {}
+
+      /* ---------------- header + mobile menu ---------------- */
+      const header = document.getElementById("siteHeader");
+      window.addEventListener(
+        "scroll",
+        () => header.classList.toggle("scrolled", window.scrollY > 10),
+        { passive: true },
+      );
+
+      const navToggle = document.getElementById("navToggle");
+      const navLinks = document.getElementById("navLinks");
+      function setMenu(open) {
+        navLinks.classList.toggle("open", open);
+        navToggle.setAttribute("aria-expanded", String(open));
+      }
+      navToggle.addEventListener("click", () =>
+        setMenu(navToggle.getAttribute("aria-expanded") !== "true"),
+      );
+      navLinks.querySelectorAll("a").forEach((a) =>
+        a.addEventListener("click", () => setMenu(false)),
+      );
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") setMenu(false);
+      });
+
+      /* ---------------- reveal on scroll ---------------- */
+      const revealEls = document.querySelectorAll(".reveal");
+      if ("IntersectionObserver" in window) {
+        const io = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((e) => {
+              if (e.isIntersecting) {
+                e.target.classList.add("in");
+                io.unobserve(e.target);
+              }
+            });
+          },
+          { threshold: 0.12 },
+        );
+        revealEls.forEach((el) => io.observe(el));
+      } else {
+        revealEls.forEach((el) => el.classList.add("in"));
       }
 
-      function validate(data) {
-        if (!data.name || !data.phone || !data.service) {
-          alert(
-            "Please fill in your name, phone number, and the service you're interested in.",
-          );
+      document.getElementById("year").textContent = new Date().getFullYear();
+
+      /* ---------------- booking form ---------------- */
+      const $ = (id) => document.getElementById(id);
+      const statusEl = $("formStatus");
+
+      function clearErrors() {
+        document.querySelectorAll(".err").forEach((p) => {
+          p.hidden = true;
+          p.textContent = "";
+        });
+        document
+          .querySelectorAll("[aria-invalid]")
+          .forEach((el) => el.removeAttribute("aria-invalid"));
+        statusEl.textContent = "";
+      }
+
+      function fail(fieldId, key) {
+        const field = $(fieldId);
+        const err = $("err-" + fieldId);
+        field.setAttribute("aria-invalid", "true");
+        err.textContent = MSG[lang][key];
+        err.hidden = false;
+      }
+
+      function getFormData() {
+        return {
+          name: $("fname").value.trim(),
+          phone: $("fphone").value.trim(),
+          email: $("femail").value.trim(),
+          service: $("fservice").value,
+          platform: $("fplatform").value,
+          time: $("ftime").value.trim(),
+          msg: $("fmsg").value.trim(),
+        };
+      }
+
+      function validate(d) {
+        clearErrors();
+        let firstBad = null;
+        const bad = (id, key) => {
+          fail(id, key);
+          if (!firstBad) firstBad = $(id);
+        };
+        if (!d.name) bad("fname", "name");
+        const digits = d.phone.replace(/\D/g, "");
+        if (
+          !/^\+?[\d\s\-()]+$/.test(d.phone) ||
+          digits.length < 10 ||
+          digits.length > 15
+        )
+          bad("fphone", "phone");
+        if (d.email && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(d.email))
+          bad("femail", "email");
+        if (!d.service) bad("fservice", "service");
+        if (firstBad) {
+          firstBad.focus();
           return false;
         }
         return true;
       }
 
-      function buildMessage(data) {
-        let lines = [
-          "New session registration — Clear Mind Therapy Center",
-          "Name: " + data.name,
-          "Phone: " + data.phone,
+      // The message that reaches Mehwish is always written in English.
+      function buildMessage(d) {
+        const lines = [
+          "New session booking — Clear Mind Therapy Center",
+          "Name: " + d.name,
+          "Phone: " + d.phone,
         ];
-        if (data.email) lines.push("Email: " + data.email);
-        lines.push("Service: " + data.service);
-        if (data.time) lines.push("Preferred contact time: " + data.time);
-        if (data.msg) lines.push("Message: " + data.msg);
+        if (d.email) lines.push("Email: " + d.email);
+        lines.push("Service: " + d.service);
+        lines.push("Preferred platform: " + d.platform);
+        if (d.time) lines.push("Preferred contact time: " + d.time);
+        if (d.msg) lines.push("Message: " + d.msg);
         return lines.join("\n");
       }
 
-      document.getElementById("sendWhatsapp").addEventListener("click", () => {
-        const data = getFormData();
-        if (!validate(data)) return;
-        const text = encodeURIComponent(buildMessage(data));
-        window.open(`https://wa.me/${THERAPIST_PHONE}?text=${text}`, "_blank");
+      $("sendWhatsapp").addEventListener("click", () => {
+        const d = getFormData();
+        if (!validate(d)) return;
+        const text = encodeURIComponent(buildMessage(d));
+        window.open(
+          `https://wa.me/${THERAPIST_PHONE}?text=${text}`,
+          "_blank",
+          "noopener",
+        );
+        statusEl.textContent = MSG[lang].wa;
       });
 
-      document.getElementById("sendEmail").addEventListener("click", () => {
-        const data = getFormData();
-        if (!validate(data)) return;
+      $("sendEmail").addEventListener("click", () => {
+        const d = getFormData();
+        if (!validate(d)) return;
         const subject = encodeURIComponent(
-          "New session registration — " + data.name,
+          "New session booking — " + d.name,
         );
-        const body = encodeURIComponent(buildMessage(data));
+        const body = encodeURIComponent(buildMessage(d));
+        statusEl.textContent = MSG[lang].mail;
         window.location.href = `mailto:${THERAPIST_EMAIL}?subject=${subject}&body=${body}`;
       });
     </script>

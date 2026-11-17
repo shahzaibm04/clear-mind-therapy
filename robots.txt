@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.clearmindtherapy.center/sitemap.xml
+Sitemap: https://SITE_URL_PLACEHOLDER/sitemap.xml
